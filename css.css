@@ -1,0 +1,69 @@
+body {
+  background:#750A04;
+  overflow:hidden;
+}
+div {
+  margin: 0 auto;
+  text-align:center;
+  background: url(mathematics-327488_1280.jpg) no-repeat;
+  background:#750A04;
+  height:800px;
+  padding-top:185px;
+}
+
+h1 {
+  font-family: Avenir, "Trebuchet MS",Tahoma, Arial,Verdana,sans-serif;
+  font-size:35px;
+  color:#AE2835;
+  font-weight:bold;
+  margin: 0 auto;
+  text-align:center;
+  vertical-align:middle;
+  padding:0;
+  max-width:700px;
+  height:100px;
+  max-height:100px;
+  overflow:hidden;
+}
+
+my-email::after {
+  content: "bunke.consulting";
+}
+
+my-email::before {
+  content: attr(data-user) "\0040";
+}
+
+contact {
+  font-family: Avenir, "Trebuchet MS",Tahoma, Arial,Verdana,sans-serif;
+  font-size:25px;
+  color:#AE2835;
+  font-weight:bold;
+  margin: 0 auto;
+  text-align:center;
+  vertical-align:middle;
+  padding:0;
+  max-width:700px;
+  height:100px;
+  max-height:100px;
+  overflow:hidden;
+}
+.modal-footer {
+  text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
